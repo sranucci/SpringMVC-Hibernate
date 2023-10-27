@@ -1,0 +1,194 @@
+.pointer-style {
+    cursor: pointer;
+}
+
+.fixed-image-width{
+    width: 70%;
+    overflow: hidden;
+}
+
+.floatingBtn {
+    background-color: #00bfa5 !important;
+}
+
+.card-image img {
+    width: 100%; /* make the image fill the entire height of the container */
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+.card-title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    font-weight: 400 !important;
+}
+
+.max-width{
+    max-width: 60%;
+}
+
+.seeRecipe {
+    text-transform: uppercase;
+    color: #26a69a;
+    cursor: pointer;
+}
+
+.card-content-subtitles {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: column;
+    color: #616161;
+}
+
+.margin-top{
+    margin-top: 180px;
+}
+
+
+.not-selectable {
+    user-select: none; /* standard notation */
+    -webkit-user-select: none; /* Safari, Chrome, and other webkit-based browsers */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer and Microsoft Edge */
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.feed-card-info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.card .card-content {
+    padding-top: 15px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+}
+
+.card .card-action {
+    padding: 5px !important;
+}
+
+.rotate-icon {
+    transform: rotate(90deg) scaleX(-1);
+}
+
+.icon {
+    color: #616161;
+    display: flex;
+    align-items: center;
+}
+
+.difficulty, .time {
+    display: flex;
+    align-items: center;
+}
+
+.card-info i {
+    margin: 10px;
+}
+
+.likes-container {
+    display: flex;
+    align-items: center;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    flex-direction: row;
+}
+
+.dislikes {
+    display: flex;
+    align-items: center;
+}
+
+.comments {
+    display: flex;
+    align-items: center;
+}
+
+.thumb {
+    border-radius: 50%;
+    height: 30px !important;
+    width: 30px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px !important;
+    margin: 5px;
+}
+
+.thumb-up {
+    color: limegreen;
+}
+
+.thumb-down {
+    color: #cb3e3e;
+}
+
+.description{
+    word-break: break-all;
+    hyphens: auto;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+
+.user-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.margin-right{
+    margin-right: 1%;
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: medium;
+}
+.user-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.user-link:hover {
+    text-decoration: none;
+
+}
+
+.feed-card-container{
+    display: flex;
+    flex-flow: row;
+    height: 275px;
+}

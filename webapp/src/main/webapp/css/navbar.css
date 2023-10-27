@@ -1,0 +1,153 @@
+:root {
+    --select-theme: #00bfa5;
+    --background-color: #eeeeee8f;
+    --grey-color: #616161;
+    --dark-grey-color: #292932;
+}
+
+.side-bar {
+    padding-top: 25px;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color);
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.icons {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.features-item {
+    display: flex;
+    align-items: center;
+    color: var(--grey-color);
+    cursor: pointer;
+}
+
+.features-item::before {
+    transition: 0.5s ease;
+    content: '';
+    height: 100%;
+    border-left: 3px solid var(--select-theme);
+    border-radius: 2px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.features-item:hover {
+    color: var(--select-theme);
+    transition: 0.5s ease;
+}
+
+.features-item:hover::before {
+    opacity: 1;
+    visibility: unset;
+}
+
+.features-item-text {
+    transition: opacity 0.6s ease;
+    opacity: 1;
+}
+
+@media screen and (max-width: 1072px) {
+    .hideable {
+        display: none;
+    }
+
+    .side-bar {
+        width: 80px;
+        align-items: center;
+    }
+
+    .icons {
+        padding-left: 5px;
+    }
+
+    .admin {
+        display: none !important;
+    }
+
+}
+
+.create-btn {
+    border: none;
+    border-radius: 5px;
+    background-color: #00bfa5; /* otra opcion: 3DC795 */
+    color: floralwhite;
+    text-align: center;
+    text-transform: none;
+    font-size: large;
+}
+
+.create-container {
+    display: flex;
+    justify-content: center;
+}
+
+.brand-name {
+    color: #00bfa5;
+    font-size: 28px;
+    display: flex;
+    flex-flow: column;
+    font-weight: bold;
+}
+
+.brand-1 {
+    display: flex;
+    justify-content: center
+}
+
+.login {
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+    justify-content: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.not-selectable {
+    user-select: none;
+    /* standard notation /
+       -webkit-user-select: none; / Safari, Chrome, and other webkit-based browsers /
+       -moz-user-select: none; / Firefox /
+       -ms-user-select: none; / Internet Explorer and Microsoft Edge */
+    -webkit-user-select: none;
+}
+
+
+.admin {
+    font-size: 10px;
+    transition: opacity 0.6s ease;
+    opacity: 1;
+    display: flex;
+    justify-content: right;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.name{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    width: 80px;
+}
+
+.activate-pressed{
+    color: #28AD9C;
+}
+
+.logout{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1%;
+}

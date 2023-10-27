@@ -1,0 +1,757 @@
+
+.nav-bar-container {
+    width: 13%;
+    height: inherit;
+}
+
+.recipe-header {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    margin-top: 2%;
+}
+
+
+.header-buttons {
+    display: flex;
+}
+
+.recipe-structure {
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+}
+
+.recipe-container {
+    display: flex;
+    flex-basis: 80%;
+    flex-flow: column;
+    flex-direction: column;
+}
+
+.column1 {
+    display: flex;
+    width: 30%;
+    flex-flow: column;
+    margin-left: 5%;
+}
+
+.column2 {
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+}
+
+
+.item-text {
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 2px;
+}
+
+.recipe-img {
+    width: 180px;
+    height: 200px;
+    border-radius: 10%;
+    margin-top: 2%;
+    object-fit: cover;
+}
+
+
+.column2-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.save {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 20px;
+    color: white;
+    border: solid;
+    background-color: var(--select-theme);
+    border-color: var(--select-theme);
+    height: 40px;
+    padding: 15px;
+    text-transform: none;
+}
+
+.delete-button-modal {
+    border-radius: 20px;
+    border-color: red;
+    margin: 2px;
+    text-transform: none;
+}
+
+.delete-button {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: white;
+    background-color: red;
+    height: 40px;
+    border-radius: 20px;
+    border-color: red;
+    text-transform: none;
+    cursor: pointer;
+    padding: 15px;
+    margin-left: 3%;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+    font-size: 14px;
+    outline: 0;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+
+.margin-left{
+    margin-left: 5%;
+}
+
+
+.private-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.private-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.save:active {
+    color: white;
+}
+
+.share {
+    border: solid;
+    background-color: white;
+    border-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.pointer-button {
+    cursor: pointer;
+}
+
+.pointer-button:hover{
+    background-color: #00bfa5;
+    color: white;
+}
+.share-div {
+    margin-left: 0;
+}
+
+.share:focus {
+    background-color: #00bfa5;
+    color: white;
+}
+
+.bookmark {
+    width: 45%;
+}
+
+.delete-icon {
+    width: 45%;
+}
+
+/*.description-container {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    gap: 20px;*/
+/*    flex-direction: column;*/
+/*    margin-left: 5%;*/
+/*    height: 100%;*/
+/*    margin-top: 5%;*/
+/*    width: 80%;*/
+/*}*/
+
+.description-container {
+    position: relative; /* Add relative positioning to the parent container */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-direction: column;
+    margin-left: 5%;
+    height: 100%;
+    margin-top: 5%;
+    width: 80%;
+}
+
+.title-container {
+    margin-right: 5%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.recipe-title {
+    font-size: 35px;
+    width: inherit;
+    word-break: break-all;
+    hyphens: auto;
+}
+
+.saves-likes-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.saves {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row;
+}
+
+.description {
+    font-size: 17px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #616161;
+    word-break: break-all;
+    hyphens: auto;
+}
+
+.comment-text{
+    word-break: break-all;
+    hyphens: auto;
+}
+
+.icon {
+    color: #616161;
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    width: 40px;
+}
+
+.description-bottom-text {
+    margin-left: 2px;
+}
+
+.rotate-icon {
+    transform: rotate(90deg) scaleX(-1);
+}
+
+.description-bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description-bottom {
+    display: flex;
+    align-items: center;
+}
+
+
+.line {
+    width: 100%;
+    margin-left: 0;
+    border: 0;
+    border-top: 1px solid lightgrey;
+}
+
+.comment {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.comment-user {
+    color: black;
+    font-weight: 600;
+}
+
+
+.recipe-description {
+    display: flex;
+    flex-flow: row;
+    height: 60%;
+}
+
+.column1-description {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.divider {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    width: 90%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.margin {
+    margin-top: 2%;
+    margin-left: 0;
+}
+
+.divider-child {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    clear: both;
+    display: block;
+    width: 95%;
+}
+
+.ingredients-container {
+    display: flex;
+    flex-flow: column;
+}
+
+.subtitle {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.categories {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.bullet {
+    list-style-type: circle;
+    padding: 8px;
+    font-size: 17px;
+    color: #616161;
+    margin-left: 2%;
+}
+
+.detail_ol {
+    font-size: 17px;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 90%;
+    color: #616161;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 0;
+}
+
+
+.thumb {
+    color: white;
+    font-size: 20px;
+}
+
+.user {
+    color: white;
+    background-color: rgb(35, 55, 72);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.user-photo {
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.comment-input {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+}
+
+.thumb-deactivated {
+    background-color: lightgray;
+    border-color: lightgray;
+}
+
+.thumb-up-activated {
+    background-color: limegreen;
+    border-color: limegreen;
+}
+
+
+.thumb-down-activated {
+    background-color: #cb3e3e;
+    border-color: #cb3e3e;
+}
+
+.rating-details {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.rating-text {
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 2%;
+    white-space: nowrap;
+    margin-top: 3.4%;
+}
+
+.username {
+    background-color: #eeeeee;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    color: black;
+    width: max-content;
+}
+
+.margin-right{
+    margin-right: 10px;
+}
+
+
+.user-image {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 2%;
+    border-radius: 50%;
+}
+
+
+#input {
+    border-radius: 25px;
+    border: 2px solid;
+    border-color: #616161;
+    padding: 10px;
+    height: 2%;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.active .check-box {
+    right: 0;
+    opacity: 1;
+    transition: 1s;
+}
+
+.active svg path {
+    stroke-dashoffset: 0;
+    transition: 1s;
+    transition-delay: 1s;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 20px;
+    color: white;
+    border: solid;
+    background-color: rgb(35, 55, 72);
+    border-color: rgb(35, 55, 72);
+    height: 40px;
+    padding: 15px;
+    text-transform: none;
+}
+
+.number {
+    padding: 8px;
+    font-size: 17px;
+    color: #616161;
+    margin-left: 2%;
+    word-break: break-all;
+    hyphens: auto;
+}
+
+.info {
+    margin-right: 5px;
+}
+
+
+.comments-section {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+}
+
+.give-margin {
+    margin-bottom: 50px;
+}
+
+.likes-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.dislikes {
+    display: flex;
+    align-items: center;
+}
+
+.comment-container {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.collection {
+    width: 95%;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-date {
+    color: gray;
+}
+
+
+.modal-delete-comment-button {
+    border-radius: 20px;
+    border-color: red;
+    margin: 2px;
+}
+
+.delete-position {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: white;
+    background-color: red;
+    height: 40px;
+    border-radius: 49px;
+    border-color: red;
+    margin: 2px;
+    text-transform: none;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.thumb-up-comment-position {
+    position: absolute;
+    bottom: 16px;
+    right: 25px;
+}
+
+.thumb-down-comment-position {
+    position: absolute;
+    bottom: 16px;
+    right: 20px;
+}
+
+.display-thumbs-position {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.list-font {
+    font-weight: 500;
+}
+
+.error {
+    padding-left: 5%;
+    color: red;
+}
+
+.commentError{
+    position: absolute;
+}
+
+.comment-form {
+    margin: 0;
+    width: 100%;
+}
+
+.save-and-share {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.save-and-share-recipe{
+    margin-right: -10%;
+}
+
+.delete-and-edit {
+    display: flex;
+}
+
+.save-button-text {
+    padding-left: 5px;
+    white-space: nowrap
+}
+
+.see-more-container {
+    display: flex;
+    justify-content: center;
+}
+
+.comments-likes-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.like-btn {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.thumb-up-activated:hover {
+    background-color: limegreen !important;
+
+}
+
+.thumb-deactivated:hover {
+    background-color: lightgray !important;
+
+}
+
+.thumb-down-activated {
+    background-color: #cb3e3e !important;;
+}
+
+.submit:hover {
+    background-color: rgb(35, 55, 72) !important;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-image {
+    width: 100%;
+    margin-bottom: 20px;
+    max-height: 600px;
+}
+
+.main-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.thumbnail-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thumbnail-image {
+    width: calc(20% - 30px);
+    margin: 5px;
+    cursor: pointer;
+}
+
+.thumbnail-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.popup {
+    position: absolute;
+    bottom: 15px;
+    left: 55%;
+    transform: translateX(-50%); /* Center the popup horizontally */
+    margin-bottom: 10px; /* Optional margin if needed */
+    background-color: #00bfa5;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.comment-modal {
+    display: flex;
+    align-items: center;
+}
+
+.no-comments{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem !important;
+}
+
+.follow{
+    margin-right: 1.5%;
+}
+
+.follow-btn{
+    border: 2px;
+    border-color: #cccccc;
+    border-radius: 10px;
+    color: white;
+    text-transform: none;
+    margin-bottom: 2%;
+}
+
+.language{
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    font-size: 14px;
+}
+
+.language-txt{
+    font-weight: bold;
+}

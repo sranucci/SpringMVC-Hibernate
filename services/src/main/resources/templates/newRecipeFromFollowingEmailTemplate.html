@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>New Recipe Notification</title>
+    <style>
+        .brand-name {
+            color: #00bfa5;
+            font-size: 28px;
+            display: flex;
+            flex-flow: column;
+            font-weight: bold;
+        }
+
+        .brand-1 {
+            display: flex;
+            justify-content: center
+        }
+
+        .primary {
+            color: #00bfa5;
+        }
+
+        .recipe {
+            font-weight: bold;
+        }
+
+        .button {
+            background-color: #00bfa5;
+            color: white !important;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .text{
+            display: flex;
+            flex-flow: row;
+        }
+
+        .margin-right{
+            margin-right: 2%;
+        }
+    </style>
+</head>
+<body>
+
+<table style="max-width: 600px; margin: 0 auto;">
+    <tr>
+        <td style="background-color: #f4f4f4; padding: 20px;">
+            <div class="brand-name">
+                <div class="brand-1 ">Taste</div>
+                <div class="brand-1 ">Tales</div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="background-color: white; padding: 20px;">
+            <div class="primary text">
+                <h2 th:text="#{newRecipeFromFollowing.title}" style="margin-right: 5px;"></h2>
+                <h2 th:text="${username}">,</h2>
+            </div>
+            <div class="text">
+                <p th:text="${recipeOwner}" style="margin-right: 5px;"></p>
+                <p th:text="#{newRecipeFromFollowing.body}" style="margin-right: 5px;"></p>
+                <p th:text="#{newRecipeFromFollowing.body2}"></p>
+            </div>
+            <br/>
+            <div class="text">
+                <p th:text="#{newRecipeFromFollowing.body3}" class="margin-right"></p>
+                <p th:text="${title}"></p>
+            </div>
+            <a class="button" th:href="${url}" th:text="#{newRecipeFromFollowing.button}"></a>
+
+            <p th:text="#{mails.footer1}"></p>
+            <p th:text="#{mails.sincerely}"></p>
+            <p th:text="#{mails.footer2}"></p>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

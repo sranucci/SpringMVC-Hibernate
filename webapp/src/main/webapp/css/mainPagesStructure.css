@@ -1,0 +1,38 @@
+.main-structure {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav-bar-container {
+    width: 13%;
+    height: inherit;
+}
+
+.main-content-container {
+    flex: 1;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+@media screen and (max-width: 1072px) {
+    .nav-bar-container {
+        width: 80px;
+    }
+}

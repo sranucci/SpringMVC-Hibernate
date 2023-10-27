@@ -1,0 +1,40 @@
+.margin-top {
+    margin-top: 5%;
+}
+
+.margin-bottom {
+    margin-bottom: 5%;
+}
+
+.link {
+    color: #28AD9C;
+    text-decoration: underline;
+}
+
+.display-items {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.resetform-card {
+    padding-bottom: 3% !important;
+}
+
+.login-container {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.login-btn {
+    border: none;
+    border-radius: 10px;
+    background-color: var(--select-theme);
+    color: floralwhite;
+    text-transform: none;
+}
+
+.margin-left {
+    margin-left: 2%;
+}

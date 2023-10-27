@@ -1,0 +1,140 @@
+.filter {
+    width: 90%;
+}
+
+.clear-filter {
+    color: #00bfa5;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.clear-filter:hover{
+    color: #26a69a;
+}
+
+.filter-title {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.difficulty-container {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ingredients-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.input-ingredients {
+    width: 100% !important;
+}
+
+.chips .input {
+    width: 100% !important;
+}
+
+.likes-container {
+    display: flex;
+    flex-flow: row;
+}
+
+.likes {
+    display: flex;
+    flex-flow: column;
+    margin-right: 5%;
+}
+
+.sort-by-container {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.apply-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.apply-filter-card{
+    color: floralwhite;
+    background-color: #00bfa5;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: none;
+}
+
+.apply-filter-card:hover {
+    background-color: #26a69a;
+}
+
+.filter-subtitle {
+    font-size: 12px;
+    color: #616161;
+}
+
+.margin {
+    margin-top: 5%;
+}
+
+.margin-top {
+    margin-top: 5% !important;
+}
+
+.card-title-category {
+    background-color: inherit !important;
+    color: white !important;
+    border: none !important;
+    cursor: pointer;
+    padding: 2%;
+}
+
+.category-input {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chip {
+    display: flex;
+    flex-flow: row;
+}
+
+.chip:hover {
+    background-color: #00bfa5 !important;
+}
+
+.chips {
+    display: flex;
+    flex-flow: column;
+}
+
+.dropdown-content {
+}
+
+.darkgrey {
+    color: var(--dark-grey-color);
+}

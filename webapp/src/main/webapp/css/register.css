@@ -1,0 +1,158 @@
+.main-register {
+    background: linear-gradient(90deg, #fff 63%, var(--select-theme) 0);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-container {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+    padding: 5px;
+}
+
+.sign-up-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10%;
+}
+
+.sign-up-list {
+    color: dimgrey;
+
+}
+
+.sign-up-title-color {
+    color: var(--select-theme);
+}
+
+.list-item {
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.list-icons {
+    padding-right: 20px;
+}
+
+.form-container {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.form-card {
+    margin-left: 10%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    border-radius: 10px;
+    opacity: 1;
+    padding-bottom: 10%;
+}
+
+.form {
+    height: inherit;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10%;
+}
+
+.user-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.name-input {
+    margin-right: 20px;
+}
+
+
+.login-container {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.login-btn {
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--select-theme); /* otra opcion: 3DC795 */
+    color: floralwhite;
+    text-transform: none;
+}
+
+.register-btn {
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--select-theme); /* otra opcion: 3DC795 */
+    color: floralwhite;
+    text-transform: none;
+}
+
+.register-container {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.save-btn:hover {
+    background-color: #28AD9C;
+}
+
+.error {
+    color: red;
+}
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+    position: relative !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
+
+.remember-container {
+    padding-top: 10px;
+    display: flex;
+    align-items: inherit;
+}
+
+.remember-box {
+    margin-left: 1.5%;
+}
+
+.form-title {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.forgotPassword-container {
+    display: flex;
+    justify-content: center;
+}
+
+.forgotPassword {
+    font-size: 14px;
+}
+
+.decorate-text {
+    text-decoration: underline !important;
+}
+
+.reset-padding{
+    padding-bottom: 3%;
+}
+
+.margin-left{
+    margin-left: 3%
+}

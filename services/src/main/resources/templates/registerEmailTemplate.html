@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Welcome to TasteTales!</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .button {
+            background-color: #00bfa5;
+            color: white !important;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<h1 th:text="#{registerEmail.title}"> <span th:text="${username}"></span></h1>
+<p  th:text="#{registerEmail.body}"></p>
+<p  th:text="#{mails.footer1}"></p>
+<p  th:text="#{mails.sincerely}"></p>
+<p  th:text="#{mails.footer2}"></p>
+</body>
+</html>

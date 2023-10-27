@@ -1,0 +1,379 @@
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-profile {
+    background: linear-gradient(90deg, #fff 63%, var(--select-theme) 0);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar-container {
+    width: 13%;
+    height: inherit;
+}
+
+.form-container {
+    width: 100%;
+}
+
+.profile-header {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.profile-container {
+    display: flex;
+    flex-basis: 50%;
+    flex-flow: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    margin-left: 25%;
+    margin-right: 25%;
+    /*border: solid;*/
+    /*border-color: #616161;*/
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5%;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    flex-flow: column;
+    /*width: 100%;*/
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.profile-icon {
+    font-size: 170px;
+}
+
+.text-size {
+    font-size: 15px;
+}
+
+.profile-info {
+    display: flex;
+    flex-flow: row;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profile-value {
+    border: solid !important;
+    border-color: #cccccc !important;
+    border-radius: 12px !important;
+    width: 90% !important;
+}
+
+.email-value {
+    border: solid !important;
+    border-color: #cccccc !important;
+    border-radius: 12px !important;
+    width: 95% !important;
+}
+
+.width {
+    width: 95% !important;
+}
+
+.margin-right {
+    margin-right: 5% !important;
+    padding-left: 5% !important
+}
+
+.margin-right-info{
+    margin-right: 2% !important;
+}
+
+.margin-bottom {
+    margin-bottom: 5%;
+}
+
+.margin-bottom-last{
+    margin-bottom: 3%;
+}
+
+.margin-top {
+    margin-top: 10%;
+}
+
+.info-container-values {
+    width: 40%;
+    margin-top: 5%;
+}
+
+.info-container {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.edit {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.edit_button {
+    background-color: white;
+    border: none;
+    color: var(--select-theme);;
+}
+
+.edit_button:hover {
+    background-color: #28AD9C;
+    color: white;
+    border-radius: 20px;
+}
+
+.line {
+    width: 90%;
+    border: 0;
+    border-top: 2px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.users-line {
+    width: 95%;
+    border: 0;
+    border-top: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interactions-container {
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+}
+
+.interactions-title {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2%;
+}
+
+.interactions {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.save-container {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+
+}
+
+.save-btn {
+    width: fit-content;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--select-theme); /* otra opcion: 3DC795 */
+    color: floralwhite;
+    text-transform: none;
+    margin-bottom: 2%;
+}
+
+.create-icon {
+    color: #00bfa5;
+}
+
+.error {
+    color: red;
+    margin-bottom: -25%;
+}
+
+.header {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.adminProfile {
+    width: 50%;
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #616161;
+    display: flex;
+    align-items: center;
+}
+
+.edit-profile {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    justify-content: left;
+    align-items: flex-end;
+    /*margin-top: 5%;*/
+}
+
+.password {
+    display: flex;
+    flex-flow: column;
+}
+
+.user-photo {
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.photo-container {
+    margin: 5% 5% 0 0;
+}
+
+.change-btn {
+    padding: 2px 5px;
+    font-weight: bold;
+    color: var(--select-theme);
+    cursor: pointer;
+}
+
+.delete-btn {
+    padding: 2px 5px;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+}
+
+
+.info-input {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    margin: 0 5px 8px 0;
+    border: solid #cccccc;
+    border-radius: 12px;
+    width: 90%;
+    padding-left: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.email-profile {
+    /*width: 100%;*/
+    width: 97%;
+}
+
+.photo-buttons {
+    display: flex;
+}
+
+.follow{
+    display: flex;
+    justify-content: end;
+    width: inherit;
+}
+
+.follow-btn{
+    border: 2px;
+    border-color: #cccccc;
+    border-radius: 10px;
+    color: white;
+    text-transform: none;
+    margin-bottom: 2%;
+}
+
+.following{
+    color: black;
+    text-decoration: underline;
+    background: white;
+    border: none;
+    padding: 1.5%;
+}
+
+.margin-follows{
+    margin-bottom: 2%;
+}
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 20%;
+}
+
+.close-btn{
+    background: none;
+    border:none;
+}
+
+.close-btn-position{
+    display: flex;
+    justify-content: end;
+}
+
+.follows-image{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 2%;
+    border-radius: 50%;
+}
+
+.user-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 3%;
+    color: black
+}
+
+.following:active{
+    background-color: #28AD9C;
+    color: white;
+    border-radius: 20px;
+}
+
+.logout-btn{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 20px;
+    color: white;
+    border: solid;
+    background-color: var(--select-theme);
+    border-color: var(--select-theme);
+    height: 40px;
+    padding: 15px;
+    text-transform: none;
+    width: 25%;
+}
+
+.logout-btn-pos{
+    display: flex;
+    justify-content: center;
+}

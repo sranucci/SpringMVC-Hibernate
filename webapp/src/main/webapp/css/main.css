@@ -1,0 +1,15 @@
+.primary {
+    color: #00bfa5;
+}
+
+.secondary {
+    color: #28AD9C;
+}
+
+.font-family {
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+}
+
+.background-default {
+    background-color: #00bfa5;
+}

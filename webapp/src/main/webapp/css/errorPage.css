@@ -1,0 +1,45 @@
+/*body {*/
+
+
+/*}*/
+
+.error-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-color: white;
+
+    /*background-image: url("https://www.refinery29.com/images/9078214.jpg?crop=40%3A21");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*color: #333;*/
+
+    backdrop-filter: blur(5px);
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    color: #00bfa5;
+}
+
+p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.error-content a {
+    color: #00bfa5;
+    text-decoration: none;
+    border-bottom: 2px solid #00bfa5;
+}
+
+.error-content a:hover {
+    color: #00bfa5;
+    border-bottom: 2px solid #00bfa5;
+}

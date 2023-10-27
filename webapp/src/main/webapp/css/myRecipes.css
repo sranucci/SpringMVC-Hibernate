@@ -1,0 +1,76 @@
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.my-recipes-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+.header-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.create-btn {
+    border: none;
+    border-radius: 5px;
+    background-color: #00bfa5; /* otra opcion: 3DC795 */
+    color: #fff;
+    text-align: center;
+    text-transform: none;
+    font-size: large;
+}
+
+.save-btn:hover {
+    background-color: #28AD9C;
+}
+
+
+.line {
+    width: 80%;
+    border: none;
+    height: 1px;
+    margin-top: 2.5%;
+    background-color: #ccc;
+}
+
+.sort-by-container {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    align-items: baseline;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.sort-by-container select {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    min-width: 80px;
+}
+
+.sort-by-label {
+    padding-right: 1%;
+
+}
+
+.sort-by-container .sort-by-label {
+    min-width: 80px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.sort-by-label, #sort-by {
+    font-size: 16px;
+}

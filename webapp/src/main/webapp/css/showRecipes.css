@@ -1,0 +1,93 @@
+.main-content {
+    width: 90%;
+    margin: auto;
+}
+
+.heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    width: 100%;
+}
+
+.subtitle-container {
+    display: flex;
+    flex-flow: column;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    width: 100%;
+}
+
+.result-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-title {
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.divider {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.category-title {
+
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.category-structure {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    cursor: pointer;
+    overflow-x: scroll;
+    -ms-overflow-style: none; /* esconder scrollbar en edge*/
+    scrollbar-width: none; /* esconder scrollbar en firefox*/
+}
+
+.category-structure.active {
+    cursor: grabbing;
+    transform: scale(1.02);
+}
+
+.category-structure::-webkit-scrollbar { /* esconder scrollbar en chrome y derivados*/
+    display: none;
+}
+
+
+.category-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.filter {
+    width: 8%;
+}
+
+.pagination-bar {
+    display: flex;
+    justify-content: end;
+}

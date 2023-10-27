@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Recipe Like Notification</title>
+    <style>
+        .brand-name {
+            color: #00bfa5;
+            font-size: 28px;
+            display: flex;
+            flex-flow: column;
+            font-weight: bold;
+        }
+
+        .brand-1 {
+            display: flex;
+            justify-content: center
+        }
+
+        .primary {
+            color: #00bfa5;
+        }
+
+        .recipe {
+            font-weight: bold;
+        }
+
+        .button {
+            background-color: #00bfa5;
+            color: white !important;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<table style="max-width: 600px; margin: 0 auto;">
+    <tr>
+        <td style="background-color: #f4f4f4; padding: 20px;">
+            <div class="brand-name">
+                <div class="brand-1 ">Taste</div>
+                <div class="brand-1 ">Tales</div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="background-color: white; padding: 20px;">
+            <h2 class="primary" th:text="#{likesEmail.title}"></h2>
+            <p>Dear <span th:text="${username}"></span>,</p>
+            <p th:text="#{likesEmail.body1}"></p>
+            <p class="recipe"> "<span th:text="${recipeName}"></span>"</p>
+            <p th:text="#{likesEmail.body2}"></p>
+            <strong><span th:text="${likes}"></span></strong>
+            <p th:text="#{likesEmail.body3}"></p>
+            <a class="button" th:href="${url}" th:text="#{likesEmail.button}"></a>
+            <p th:text="#{mails.footer1}"></p>
+            <p th:text="#{mails.sincerely}"></p>
+            <p th:text="#{mails.footer2}"></p>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

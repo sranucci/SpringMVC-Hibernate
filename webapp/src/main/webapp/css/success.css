@@ -1,0 +1,29 @@
+.card-panel {
+    display: flex;
+    flex-flow: column;
+    background-color: #00bfa5 !important;
+}
+
+.white-text {
+    display: flex;
+    align-items: center;
+    font-size: 20px
+}
+
+.link {
+    margin-left: 5%;
+    font-size: 16px;
+    color: #28AD9C;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+}
+
+.here-link {
+    color: white;
+    text-decoration: underline;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+}
